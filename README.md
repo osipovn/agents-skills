@@ -2,6 +2,12 @@
 
 Материалы к докладу Никиты Осипова на Heisenbug 2026 «AI-агенты для Auto QA: от хаотичных запросов к системной работе с навыками».
 
+Что здесь лежит:
+
+- три скилла: [`memory-init`](memory-init/SKILL.md), [`memory-update`](memory-update/SKILL.md), [`write-tests-by-task`](write-tests-by-task/SKILL.md);
+- [`monday.md`](monday.md) — порядок действий на понедельник, семь шагов;
+- [`research.md`](research.md) — ссылки на все исследования из доклада.
+
 ## Три скилла
 
 Скилл — это инструкция в markdown, которую агент подключает под задачу. Шаблоны написаны под Java / Spring / JUnit 5, но специфика только в примерах: замените стек в тексте и они подойдут для любого языка.
@@ -42,6 +48,8 @@ memory/
 
 ## С чего начать в понедельник
 
+То же самое отдельным файлом: [`monday.md`](monday.md).
+
 1. Поставьте CLI-агента: OpenCode или разрешённый у вас аналог. Проверьте, какая модель под ним.
 2. Создайте `AGENTS.md`: стек, версии, где лежат проверенные сценарии, что запрещено.
 3. Запустите `memory-init` на репозитории автотестов.
@@ -52,13 +60,7 @@ memory/
 
 ## Исследования, на которые ссылается доклад
 
-- Деградация моделей на длинном контексте: лидерборд [Context Arena](https://contextarena.ai), GDM MRCR v2 (8-needle). Метод MRCR: Vodrahalli et al., «Michelangelo», 2024, [arxiv.org/abs/2409.12640](https://arxiv.org/abs/2409.12640). Термин context rot: [Chroma Research, 2025](https://www.trychroma.com/research/context-rot).
-- Размер PR и время ревью у команд с AI: Faros AI, «AI Productivity Paradox», 2025, [faros.ai](https://www.faros.ai).
-- PR от агентов ждут ревью дольше и принимаются реже: LinearB, 2026, [linearb.io](https://linearb.io).
-- LLM-генерация мутантов и тестов: Meta*, ACH, [engineering.fb.com](https://engineering.fb.com), 30.09.2025.
-- Мутанты от LLM воспроизводят реальные баги: Wang, Harman et al., [arxiv.org/abs/2406.09843](https://arxiv.org/abs/2406.09843).
-
-\* Meta признана экстремистской организацией, её деятельность запрещена на территории РФ.
+Полный список с прямыми ссылками: [`research.md`](research.md).
 
 ## Контакты
 

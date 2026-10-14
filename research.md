@@ -4,7 +4,7 @@
 
 ## Контекст и длина окна
 
-- **Context Arena** — лидерборд точности моделей по диапазонам длины контекста (GDM MRCR v2, 8-needle). Слайд «Контекст: что показывает лидерборд». https://contextarena.ai
+- **Context Arena** — рейтинг точности моделей по диапазонам длины контекста (GDM MRCR v2, 8-needle). Слайд «Контекст: что показывает лидерборд». https://contextarena.ai
 - **Michelangelo: Long Context Evaluations Beyond Haystacks via Latent Structure Queries** — Vodrahalli et al., 2024. Метод MRCR, на котором построен лидерборд. https://arxiv.org/abs/2409.12640
 - **Context Rot: How Increasing Input Tokens Impacts LLM Performance** — Chroma Research, июль 2025. Термин context rot. https://research.trychroma.com/context-rot
 
